@@ -38,7 +38,7 @@ func main() {
 		smtpServer,
 	)
 
-	from := mail.Address{"元宝团队", "account@yuanbaohui.com"}
+	from := mail.Address{"发件人", "account@yuanbaohui.com"}
 	to := mail.Address{"收件人", mailList}
 	title := sub
 
