@@ -34,7 +34,7 @@ func main() {
 	auth := smtp.PlainAuth(
 		"",
 		"account@yuanbaohui.com",
-		"ybh2013hui!1",
+		"password",
 		smtpServer,
 	)
 
